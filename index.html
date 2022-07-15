@@ -1,53 +1,49 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>Calculator</title>
-        <meta charset="utf-8">
-        <link rel="stylesheet" href="styles.css">
-    </head>
-    <body>
-        <table>
-            <tr>
-                <td colspan="4"></td>
-            </tr>
-            <tr>
-                <td>&radic;</td>
-                <td>&pi;</td>
-                <td>&and;</td>
-                <td>!</td>
-            </tr>
-            <tr>
-                <td>AC</td>
-                <td>( )</td>
-                <td>%</td>
-                <td>/</td>
-            </tr>
-            <tr>
-                <td class="number">7</td>
-                <td class="number">8</td>
-                <td class="number">9</td>
-                <td>x</td>
-            </tr>
-            <tr>
-                <td class="number">4</td>
-                <td class="number">5</td>
-                <td class="number"> 6</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td class="number">1</td>
-                <td class="number">2</td>
-                <td class="number">3</td>
-                <td>+</td>
-            </tr>
-            <tr>
-                <td class="number"q>0</td>
-                <td>.</td>
-                <td></td>
-                <td>=</td>
-            </tr>
-            
-        <table>
-            
-    </body>
+
+<head>
+    <title>Calculator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="grid-container">
+    <section class="display-panel">
+        <div></div>
+    </section>
+    <section class="control-panel">
+        <div class="top-operators">
+            <button>&radic;</button>
+            <button>&pi;</button>
+            <button>^</button>
+            <button>!</button>
+            <button></button>
+        </div>
+        <div class="number-panel">
+            <button class="calc-button green"> AC</button>
+            <button class="calc-button blue">( )</button>
+            <button class="calc-button blue">%</button>
+            <button class="calc-button blue">/</button>
+            <button class="calc-button grey">7</button>
+            <button class="calc-button grey">8</button>
+            <button class="calc-button grey">9</button>
+            <button class="calc-button blue">x</button>
+            <button class="calc-button grey">4</button>
+            <button class="calc-button grey">5</button>
+            <button class="calc-button grey">6</button>
+            <button class="calc-button blue">-</button>
+            <button class="calc-button grey">1</button>
+            <button class="calc-button grey">2</button>
+            <button class="calc-button grey">3</button>
+            <button class="calc-button blue">+</button>
+            <button class="calc-button grey">0</button>
+            <button class="calc-button">.</button>
+            <button class="calc-button"></button>
+            <button class="calc-button blue">=</button>
+        </div>
+    </section>
+
+</body>
+
 </html>
